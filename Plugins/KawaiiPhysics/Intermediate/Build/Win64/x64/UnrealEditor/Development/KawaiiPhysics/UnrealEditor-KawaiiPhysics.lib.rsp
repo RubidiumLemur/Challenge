@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-KawaiiPhysics.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/Michael Taulli/Desktop/Challenge/Intermediate/Build/Win64/x64/ChallengeEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.obj"
+"C:/Users/Michael Taulli/Desktop/Challenge/Plugins/KawaiiPhysics/Intermediate/Build/Win64/x64/UnrealEditor/Development/KawaiiPhysics/Module.KawaiiPhysics.cpp.obj"
+"C:/Users/Michael Taulli/Desktop/Challenge/Plugins/KawaiiPhysics/Intermediate/Build/Win64/x64/UnrealEditor/Development/KawaiiPhysics/Default.rc2.res"
+/OUT:"C:/Users/Michael Taulli/Desktop/Challenge/Plugins/KawaiiPhysics/Intermediate/Build/Win64/x64/UnrealEditor/Development/KawaiiPhysics/UnrealEditor-KawaiiPhysics.lib"

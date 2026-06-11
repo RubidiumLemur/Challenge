@@ -1,0 +1,34 @@
+# Ignore all files by default, but scan all directories.
+*
+!*/
+# Do not ignore git files in the root of the repo.
+!/.git*
+# Do not ignore current project's .uproject.
+!/*.uproject
+# Do not ignore source, config, plugins, and script dirs.
+!/Source/**
+!/Config/**
+!/Plugins/**
+!/Script/**
+# Only allow .uasset and .umap files from /Content dir.
+!/Content/**/*.uasset
+!/Content/**/*.umap
+# Allow any files from /RawContent dir.
+!/RawContent/**/*
+# OS/platform generated files.
+ehthumbs.db
+Thumbs.db
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+*~
+.directory
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+# Visual Studio
+.vs
